@@ -128,7 +128,7 @@ DATAFORGE_H1_V1/
 
 The browser UI calls the Python API on the same loopback server. Dataset content remains in JSONL files; `datasets/manifest.json` stores metadata and the API reconciles counts against the actual files. The UI does not use hardcoded dashboard totals.
 
-More detail: [`docs/architecture.md`](docs/architecture.md), [`docs/dataset_schema.md`](docs/dataset_schema.md), and [`docs/training.md`](docs/training.md).
+More detail: [`architecture.md`](architecture.md), [`dataset_schema.md`](dataset_schema.md), and [`training.md`](training.md).
 
 ## Dataset library and structure
 
