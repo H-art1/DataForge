@@ -316,7 +316,3 @@ Runtime settings and future dataset edits are local to the extracted project fol
 **A dataset file is invalid.** Run Data Validator and inspect the dataset. Imports are rejected before saving when invalid; manual file changes may require a restore from `backups/` or rebuilding metadata.
 
 **Recover a previous edit.** A copy is written under `backups/versions/<dataset-id>/` before every editor save. Deleted datasets are backed up under `backups/deleted/<dataset-id>/`.
-
-## Release history
-
-See [`CHANGELOG.md`](CHANGELOG.md) for the V13.3 → V1 transition.
